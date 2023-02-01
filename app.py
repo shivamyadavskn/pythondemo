@@ -10,7 +10,7 @@ app = Flask(__name__)
 #app.config['MYSQL_PASSWORD'] = "1234"
 #app.config['MYSQL_DB'] = "alchemy"
 #mysql = MySQL(app)
-conn = psycopg2.connect("postgresql://root:m2kVAvjae5EnqQtUjSijowhGZYKB9VlZ@dpg-cfcnve02i3mhen7u9uqg-a.oregon-postgres.render.com/alchemy")
+conn = psycopg2.connect("postgres://root:m2kVAvjae5EnqQtUjSijowhGZYKB9VlZ@dpg-cfcnve02i3mhen7u9uqg-a/alchemy")
 
 
 @app.route('/')
